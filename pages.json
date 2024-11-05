@@ -1,0 +1,93 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path" : "pages/wallpaper/classAdd",
+		"style" : 
+		{
+			"navigationBarTitleText" : "添加类型"
+		}
+	},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	,{
+    "path": "pages/user-dome/add",
+    "style": {
+        "navigationBarTitleText": "新增"
+    }
+}
+,{
+    "path": "pages/user-dome/edit",
+    "style": {
+        "navigationBarTitleText": "编辑"
+    }
+}
+,{
+    "path": "pages/user-dome/list",
+    "style": {
+        "navigationBarTitleText": "列表"
+    }
+}
+,{
+    "path": "pages/user-dome/detail",
+    "style": {
+        "navigationBarTitleText": "详情"
+    }
+}
+,{
+    "path": "pages/user-dome2/add",
+    "style": {
+        "navigationBarTitleText": "新增"
+    }
+}
+,{
+    "path": "pages/user-dome2/edit",
+    "style": {
+        "navigationBarTitleText": "编辑"
+    }
+}
+,{
+    "path": "pages/user-dome2/list",
+    "style": {
+        "navigationBarTitleText": "列表"
+    }
+}
+,{
+    "path": "pages/user-dome2/detail",
+    "style": {
+        "navigationBarTitleText": "详情"
+    }
+},
+{
+	"path" : "pages/dome1/dome1",
+	"style" : 
+	{
+		"navigationBarTitleText" : "dome1"
+	}
+},
+{
+	"path" : "pages/wallpaper/wallpaper",
+	"style" : 
+	{
+		"navigationBarTitleText" : "壁纸"
+	}
+},
+{
+	"path" : "pages/dome3/dome3",
+	"style" : 
+	{
+		"navigationBarTitleText" : "上传"
+	}
+}
+],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

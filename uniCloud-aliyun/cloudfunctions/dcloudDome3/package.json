@@ -1,0 +1,7 @@
+{
+  "name": "dcloudDome3",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

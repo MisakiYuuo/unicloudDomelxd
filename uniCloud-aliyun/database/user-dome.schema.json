@@ -1,0 +1,51 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read":true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name":{
+			"type": "string",
+			"label": "姓名",
+			"description": "用户名"
+		},
+		"age":{
+			"type": "number",
+			"label": "年龄",
+			"description": "年龄"
+		},
+		"gender":{
+			"type": "string",
+			"label": "性别",
+			"description": "性别"
+		},
+		"phone":{
+			"type": "string",
+			"label": "电话",
+			"description": "电话"
+		},
+		"address":{
+			"type": "string",
+			"label": "地址",
+			"description": "地址"
+		},
+		"createTime":{
+			"type": "timestamp",
+			"label": "创建时间",
+			"description": "创建时间"
+		},
+		"updateTime":{
+			"type": "timestamp",
+			"label": "更新时间",
+			"description": "更新时间"
+		}
+	}
+}
